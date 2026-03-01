@@ -20,14 +20,14 @@
     >
       <div>
         <img
-          src="https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png"
+          src="https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png" < !-- bulb image -->
           class="w-[150px]"
           id="bulbImage"
         />
       </div>
       <div>
         <img
-          src="https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/cat-img.png"
+          src="https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/cat-img.png" <!-- cat image -->
           class="w-[300px]"
           id="catImage"
         />
@@ -35,53 +35,53 @@
       <div class="pt-5 text-center">
         <div class="bg-[#7b8794] w-[294px] rounded-xl p-6 m-4">
           <h1
-            class="text-white font-roboto text-2xl font-medium mb-6"
+            class="text-white font-roboto text-2xl font-medium mb-6" </h1> <!-- switch status -->
             id="switchStatus"
           >
             Switched On
           </h1>
           <button
-            class="w-[99px] h-11 rounded-lg bg-[#e12d39] text-white font-roboto text-2xl font-bold"
+            class="w-[99px] h-11 rounded-lg bg-[#e12d39] text-white font-roboto text-2xl font-bold" 
             onclick="switchOff()"
             id="offSwitch"
           >
             OFF
-          </button>
+          </button><-- off switch -->
           <button
-            class="w-[99px] h-11 rounded-lg bg-[#cbd2d9] text-white font-roboto text-2xl font-bold ml-4"
-            onclick="switchOn()"
+            class="w-[99px] h-11 rounded-lg bg-[#cbd2d9] text-white font-roboto text-2xl font-bold ml-4" 
+            onclick="switchOn()"  
             id="onSwitch"
           >
             ON
-          </button>
+          </button><-- on switch -->
         </div>
       </div>
     </div>
     <script>
       function switchOff() {
         document.getElementById("bulbImage").src =
-          "https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/bulb-go-off-img.png";
+          "https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/bulb-go-off-img.png"; // bulb image off
   
         document.getElementById("catImage").src =
-          "https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/cat-eyes-img.png";
+          "https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/cat-eyes-img.png"; // cat image eyes
   
-        document.getElementById("switchStatus").textContent = "Switched Off";
+        document.getElementById("switchStatus").textContent = "Switched Off"; // switch status off
   
-        document.getElementById("onSwitch").style.backgroundColor = "#22c55e";
-        document.getElementById("offSwitch").style.backgroundColor = "#cbd2d9";
+        document.getElementById("onSwitch").style.backgroundColor = "#22c55e"; // on switch background color
+        document.getElementById("offSwitch").style.backgroundColor = "#cbd2d9"; // off switch background color
       }
   
       function switchOn() {
         document.getElementById("bulbImage").src =
-          "https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png";
+          "https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png"; // bulb image on
   
         document.getElementById("catImage").src =
-          "https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/cat-img.png";
+          "https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/cat-img.png"; // cat image
   
-        document.getElementById("switchStatus").textContent = "Switched On";
+        document.getElementById("switchStatus").textContent = "Switched On"; // switch status on
   
-        document.getElementById("onSwitch").style.backgroundColor = "#cbd2d9";
-        document.getElementById("offSwitch").style.backgroundColor = "#e12d39";
+        document.getElementById("onSwitch").style.backgroundColor = "#cbd2d9"; // on switch background color
+        document.getElementById("offSwitch").style.backgroundColor = "#e12d39"; // off switch background color  
       }
     </script>
   </body>
