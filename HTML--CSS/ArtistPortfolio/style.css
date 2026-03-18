@@ -1,0 +1,72 @@
+body{
+    font-family: "Cormorant Infant", serif;
+}
+h1{
+    display: inline-block;
+    /*margin:0 10px;*/
+    margin: 0 32px 0 0;
+}
+nav{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 8px;
+}
+.links ul{
+    padding: 0;
+}
+.navbar{
+    margin: 35px;
+}
+a.active{
+    /*text-decoration: underline;*/
+    border-bottom: 1px solid black;
+}
+.card{
+    width: 49.75%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 12px;
+    /* border: 1px solid red; */
+}
+.card h2{
+    display: inline-block;
+    margin: 8px 0 16px 0;
+}
+.card img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+img:hover{
+    opacity: 0.9;
+}
+
+.about{
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+.about h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+.contact{
+    margin-top: 100px;
+}
+.contact p{
+    margin: 0;
+    font-size: 20px;
+}
+.underline{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 8px;
+}
