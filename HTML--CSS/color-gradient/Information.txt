@@ -1,0 +1,30 @@
+Project Name: Gradient Background
+
+Files Used:
+1. index.html
+2. style.css
+
+Explanation:
+
+1. index.html
+- This is the main HTML file.
+- It creates the webpage structure.
+- The <link> tag connects the CSS file.
+- The <h1> tag displays the heading text.
+
+2. style.css
+- This file adds design and colors to the webpage.
+- display: flex → centers the text.
+- linear-gradient() → creates colorful background.
+- animation → moves the gradient smoothly.
+- border-radius → makes rounded corners.
+- @keyframes → controls animation movement.
+
+How It Works:
+- HTML shows the content.
+- CSS styles the content.
+- The gradient background changes position continuously to create animation.
+
+Output:
+- Full screen colorful animated background.
+- Centered heading text with rounded dark box.
