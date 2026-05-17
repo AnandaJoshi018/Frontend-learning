@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 250px;
+    padding: 30px;
+    margin: 20px auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Basic Box */
+.basic-box {
+    background-color: steelblue;
+}
+
+/* Shadow Box */
+.shadow-box {
+    background-color: tomato;
+    box-shadow: 5px 5px 15px gray;
+}
+
+/* Gradient Box */
+.gradient-box {
+    background: linear-gradient(to right, purple, pink);
+}
+
+/* Rounded Box */
+.rounded-box {
+    background-color: seagreen;
+    border-radius: 20px;
+}
+
+/* Border Style Box */
+.border-box {
+    background-color: orange;
+    border: 5px dashed black;
+}
