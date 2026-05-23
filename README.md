@@ -2,7 +2,7 @@
 
 This repository contains my practice and learning work in:
 
-- HTML & CSS
+- HTML & CSS (with animated)
 - JavaScript
 - React
 - Tailwind CSS
