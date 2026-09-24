@@ -1,4 +1,4 @@
-# Frontend Learning Journey
+# Frontend Learning Journey 
 
 This repository contains my practice and learning work in:
 
